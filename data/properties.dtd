@@ -1,0 +1,5 @@
+<!ELEMENT properties (property)*>
+<!ELEMENT property (#PCDATA)>
+<!ATTLIST property
+    key CDATA   #REQUIRED
+>

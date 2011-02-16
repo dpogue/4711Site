@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM 'properties.dtd'>
+<properties>
+    <property key="title">New York Islanders</property>
+    <property key="blocks">COMP</property>
+    <property key="course">4711</property>
+    <property key="set">4O</property>
+    <property key="city">New York</property>
+    <property key="team">Islanders</property>
+    <property key="nhlhome">http://www.nhl.com</property>
+    <property key="nyihome">http://islanders.nhl.com/index.html</property>
+</properties>
