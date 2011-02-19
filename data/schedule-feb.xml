@@ -30,8 +30,8 @@
 		<home score="6" >SABRES</home>
 	</game>
 	<game day="15" month="FEB" year="2011" time="19:30" >
-		<away score="3" >ISLANDERS</away>
-		<home >SENATORS</home>
+		<away score="4" >ISLANDERS</away>
+		<home score="3">SENATORS</home>
 	</game>
 	<game day="17" month="FEB" year="2011" time="19:00" >
 		<away score="6" >BRUINS</away>
