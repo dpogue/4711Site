@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="game-schedule.xsd">
+	<game day="1" month="FEB" year="2011" time="19:00" >
+		<away score="4" >ISLANDERS</away>
+		<home score="1" >THRASHERS</home>
+	</game>
+	<game day="2" month="FEB" year="2011" time="19:00" >
+		<away score="0" >ISLANDERS</away>
+		<home score="3" >PENGUINS</home>
+	</game>
+	<game day="5" month="FEB" year="2011" time="19:00" >
+		<away score="3" >SENATORS</away>
+		<home score="5" >ISLANDERS</home>
+	</game>
+	<game day="8" month="FEB" year="2011" time="19:00" >
+		<away score="5" >MAPLE LEAFS</away>
+		<home score="3" >ISLANDERS</home>
+	</game>
+	<game day="10" month="FEB" year="2011" time="19:30" >
+		<away score="4" >ISLANDERS</away>
+		<home score="3" >CANADIENS</home>
+	</game>
+	<game day="11" month="FEB" year="2011" time="19:00" >
+		<away score="3" >PENGUINS</away>
+		<home score="9" >ISLANDERS</home>
+	</game>
+	<game day="13" month="FEB" year="2011" time="15:00" >
+		<away score="7" >ISLANDERS</away>
+		<home score="6" >SABRES</home>
+	</game>
+	<game day="15" month="FEB" year="2011" time="19:30" >
+		<away score="3" >ISLANDERS</away>
+		<home >SENATORS</home>
+	</game>
+	<game day="17" month="FEB" year="2011" time="19:00" >
+		<away score="6" >BRUINS</away>
+		<home score="3" >ISLANDERS</home>
+	</game>
+	<game day="19" month="FEB" year="2011" time="19:00" >
+		<away >KINGS</away>
+		<home >ISLANDERS</home>
+	</game>
+	<game day="21" month="FEB" year="2011" time="13:00" >
+		<away >PANTHERS</away>
+		<home >ISLANDERS</home>
+	</game>
+	<game day="22" month="FEB" year="2011" time="19:00" >
+		<away >ISLANDERS</away>
+		<home >MAPLE LEAFS</home>
+	</game>
+	<game day="24" month="FEB" year="2011" time="19:00" >
+		<away >ISLANDERS</away>
+		<home >FLYERS</home>
+	</game>
+	<game day="26" month="FEB" year="2011" time="19:00" >
+		<away >CAPITALS</away>
+		<home >ISLANDERS</home>
+	</game>
+</schedule>
