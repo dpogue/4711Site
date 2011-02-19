@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT roster (player)*>
+<!ELEMENT player (Height|DOB|BirthPlace)*>
+<!ATTLIST player
+    Shoots (Left|Right) #REQUIRED
+    Weight CDATA #REQUIRED
+    number CDATA #REQUIRED
+    position (C|RW|LW|D|G) #REQUIRED
+    name CDATA #REQUIRED
+  >
+<!ELEMENT Height (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ELEMENT BirthPlace (#PCDATA)>
+
+
