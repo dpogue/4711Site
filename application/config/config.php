@@ -11,7 +11,7 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://nyi.bcitxml.com/";
+$config['base_url']	= "http://localhost:8500/";//"http://nyi.bcitxml.com/";
 
 /*
 |--------------------------------------------------------------------------

@@ -26,7 +26,7 @@
 		<Height>6&apos; 0&quot;</Height>
 	</player>
 	<player name='Frans Nielsen' position='C' number='51' Weight='187' Shoots='Left' >
-		<BirthPlace>Herning, Den3</BirthPlace>
+		<BirthPlace>Herning, Denmark</BirthPlace>
 		<DOB>1984-04-24</DOB>
 		<Height>6&apos; 0&quot;</Height>
 	</player>
@@ -142,7 +142,7 @@
 	</player>
 	<player name='Micheal Haley' position='C' number='59' Weight='204' Shoots='Left' >
 		<BirthPlace>Guelph, ON, Canada</BirthPlace>
-		<DOB>1986-30-03</DOB>
+		<DOB>1986-03-30</DOB>
 		<Height>5&apos; 10&quot;</Height>
 	</player>
 	<player name='Dylan Reese' position='D' number='42' Weight='201' Shoots='Right' >
