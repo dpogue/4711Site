@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--    Student project groups for COMP4711, winter 2011 -->
+<teams>
+    <group code="ana">
+        <city>Anaheim</city>
+        <team conf="Western" div="Pacific">Ducks</team>
+        <website>http://ducks.nhl.com/</website>
+        <set>G</set>
+        <email>mikeslug007@gmail.com</email>
+        <members>
+            <member>Lee, Mike P</member>
+            <member>Yeh, Kwan-Wei</member>
+        </members>
+        <note>Still nothing to see.</note>
+    </group>
+    <group code="atl">
+        <city>Atlanta</city>
+        <team conf="Eastern" div="Southeast">Thrashers</team>
+        <website>http://thrashers.nhl.com/</website>
+        <set></set>
+        <members>
+
+        </members>
+    </group>
+    <group code="bos">
+        <city>Boston</city>
+        <team conf="Eastern" div="Northeast">Bruins</team>
+        <website>http://bruins.nhl.com/</website>
+        <set>G</set>
+        <email>from.tc@gmail.com</email>
+        <members>
+            <member>Chung, Tom</member>
+            <member>Pradas, Jan</member>
+        </members>
+        <note>Looks good, BUT they copied the system and user_guide folders ???</note>
+    </group>
+    <group code="buf">
+        <city>Buffalo</city>
+        <team conf="Eastern" div="Northeast">Sabres</team>
+        <website>http://sabres.nhl.com/</website>
+        <set>G</set>
+        <email>afshoonf@yahoo.com</email>
+        <members>
+            <member>Afshoon, Farnaz</member>
+            <member>Hsu, Jacky</member>
+            <member>Prwroznik, Michael</member>
+        </members>
+        <note>Looking good</note>
+    </group>
+    <group code="car">
+        <city>Carolina</city>
+        <team conf="Eastern" div="Southeast">Hurricanes</team>
+        <website>http://hurricanes.nhl.com/</website>
+        <set></set>
+        <members>
+
+        </members>
+    </group>
+    <group code="cgy">
+        <city>Calgary</city>
+        <team conf="Western" div="Northwest">Flames</team>
+        <website>http://flames.nhl.com/</website>
+        <set>B</set>
+        <email>beamer1989@gmail.com</email>
+        <members>
+            <member>Offley, Brandyn</member>
+            <member>Wright, Bruce</member>
+            <member>Xiong, Steven</member>
+        </members>
+        <note>Simple, but adequate. They said they were going to make it less ugly.</note>
+    </group>
+    <group code="chi">
+        <city>Chicago</city>
+        <team conf="Western" div="Central">Black Hawks</team>
+        <website>http://blackhawks.nhl.com/</website>
+        <set>O</set>
+        <email>khcastillo@hotmail.com</email>
+        <members>
+            <member>Castillo, Karl</member>
+            <member>Sheriffdeen, Mohamed</member>
+            <member>Stewart, Joel</member>
+        </members>
+        <note>Looks good</note>
+    </group>
+    <group code="clb">
+        <city>Columbus</city>
+        <team conf="Western" div="Central">Blue Jackets</team>
+        <website>http://bluejackets.nhl.com/</website>
+        <set></set>
+        <members>
+
+        </members>
+    </group>
+    <group code="col">
+        <city>Colorado</city>
+        <team conf="Western" div="Northwest">Avalanche</team>
+        <website>http://avalanche.nhl.com/</website>
+        <set>O</set>
+        <email>pkhantidhara@zinzone.net</email>
+        <members>
+            <member>Khantidhara, Paninee</member>
+            <member>Lee, Ian</member>
+            <member>Lui, Kelvin</member>
+        </members>
+        <note>Simple, but adequate. Did they say they were going to tweak the footer?</note>
+    </group>
+    <group code="dal">
+        <city>Dallas</city>
+        <team conf="Western" div="Pacific">Stars</team>
+        <website>http://stars.nhl.com/</website>
+        <set>G</set>
+        <email>ma.jeffrey.1@gmail.com</email>
+        <members>
+            <member>Han, Kevin</member>
+            <member>Ma, Jeffrey</member>
+        </members>
+        <note>Simple, but adequate. It may take a while to load, as there is 1MB of background imagery.</note>
+    </group>
+    <group code="det">
+        <city>Detroit</city>
+        <team conf="Western" div="Central">Red Wings</team>
+        <website>http://redwings.nhl.com/</website>
+        <set>B</set>
+        <email>bennyong87@hotmail.com</email>
+        <members>
+            <member>Dieno, Ryan</member>
+            <member>McColl, Sean</member>
+            <member>Ong, Ben</member>
+        </members>
+        <note>Simple, but adequate. Going for the sunburn award with black text on red, very bright red, background.</note>
+    </group>
+    <group code="edm">
+        <city>Edmonton</city>
+        <team conf="Western" div="Northwest">Oilers</team>
+        <website>http://oilers.nhl.com/</website>
+        <set>G</set>
+        <email>matt.ck.ko@gmail.com</email>
+        <members>
+            <member>Tong, Nicholas</member>
+            <member>Ko, Matthew</member>
+            <member>McLaren, Wesley</member>
+        </members>
+        <note>Looks good. You can feel the love the group has for their team.</note>
+    </group>
+    <group code="fla">
+        <city>Florida</city>
+        <team conf="Eastern" div="Southeast">Panthers</team>
+        <website>http://panthers.nhl.com/</website>
+        <set>G</set>
+        <email>michal.harrison@live.com</email>
+        <members>
+            <member>Harrison, Michal</member>
+            <member>Perdomo, Andy</member>
+        </members>
+        <note>Looking good. Another potential slow loader, given 700KB background.
+        Does anyone know why they included a redundant copy of the system folder?</note>
+    </group>
+    <group code="los">
+        <city>Los Angeles</city>
+        <team conf="Western" div="Pacific">Kings</team>
+        <website>http://kings.nhl.com/ </website>
+        <set>B</set>
+        <email>irainverse@hotmail.com</email>
+        <members>
+            <member>Grunwell, Ira</member>
+            <member>Demers, Nicole</member>
+        </members>
+        <note>Nothing to see yet.</note>
+    </group>
+    <group code="min">
+        <city>Minnesota</city>
+        <team conf="Western" div="Northwest">Wild</team>
+        <website>http://wild.nhl.com/</website>
+        <set></set>
+        <members>
+
+        </members>
+    </group>
+    <group code="mtl">
+        <city>Montreal</city>
+        <team conf="Eastern" div="Northeast">Canadiens</team>
+        <website>http://canadiens.nhl.com/</website>
+        <set>O</set>
+        <email>nicholashuber@gmail.com</email>
+        <members>
+            <member>Huber, Nick</member>
+            <member>Morin, Dean</member>
+            <member>Vangrootheest, Marcel</member>
+        </members>
+        <note>Simple, but effective.</note>
+    </group>
+    <group code="njd">
+        <city>New Jersey</city>
+        <team conf="Eastern" div="Atlantic">Devils</team>
+        <website>http://devils.nhl.com/ </website>
+        <set>B</set>
+        <email>jacobkwitkoski@gmail.com</email>
+        <members>
+            <member>Dunstan, Shara</member>
+            <member>Kwitkoski, Jacob</member>
+            <member>VanKuipers, Michael</member>
+        </members>
+        <note>Really simple, looks like a work in progress, complete with intentionally
+        blank homepage? Were they thinking of adding email links in their footer?</note>
+    </group>
+    <group code="nsh">
+        <city>Nashville</city>
+        <team conf="Western" div="Central">Predators</team>
+        <website>http://predators.nhl.com/</website>
+        <set>G</set>
+        <email>crees2@my.bcit.ca</email>
+        <members>
+            <member>Rees, Cole</member>
+            <member>Hon, Eric</member>
+        </members>
+        <note>Simple, but getting there, even with an empty homepage.
+        Did anyone tell them that BMP images are unecessarily big and suited to
+        a Windows environment?</note>
+    </group>
+    <group code="nyi">
+        <city>New York</city>
+        <team conf="Eastern" div="Atlantic">Islanders</team>
+        <website>http://islanders.nhl.com/</website>
+        <set>O</set>
+        <email>tom@tnightingale.com</email>
+        <members>
+            <member>Nightingale, Tom</member>
+            <member>Pogue, Darryl</member>
+            <member>Voelkl, Warren</member>
+        </members>
+        <note>Looking good.</note>
+    </group>
+    <group code="nyr">
+        <city>New York</city>
+        <team conf="Eastern" div="Atlantic">Rangers</team>
+        <website>http://rangers.nhl.com/</website>
+        <set>O</set>
+        <email>ycao22@my.bcit.ca</email>
+        <members>
+            <member>Cao, Yu Shan</member>
+            <member>Ye, Zhi Yu</member>
+            <member>Guo, WanTing</member>
+        </members>
+        <note>Looking good. Very Christmas-y text colour scheme :)
+        Email links in footer would be better than spelling them out.</note>
+    </group>
+    <group code="ott">
+        <city>Ottawa</city>
+        <team conf="Eastern" div="Northeast">Senators</team>
+        <website>http://senators.nhl.com/</website>
+        <set>G</set>
+        <email>dkhatkar@gmail.com></email>
+        <members>
+            <member>Zhang, Ziwei</member>
+            <member>Khatkar, Harjinder</member>
+        </members>
+        <note>Looking good</note>
+    </group>
+    <group code="phi">
+        <city>Philadelphia</city>
+        <team conf="Eastern" div="Atlantic">Flyers</team>
+        <website>http://flyers.nhl.com/ </website>
+        <set>B</set>
+        <email>obman88@hotmail.com</email>
+        <members>
+            <member>Kozlov, Igor</member>
+            <member>Lau, Danny</member>
+            <member>Ma, Justin</member>
+        </members>
+        <note>Getting there - looks like it is missing a content area (all navbar).</note>
+    </group>
+    <group code="phx">
+        <city>Phoenix</city>
+        <team conf="Western" div="Pacific">Coyotes</team>
+        <website>http://coyotes.nhl.com/</website>
+        <set></set>
+        <members>
+
+        </members>
+    </group>
+    <group code="pit">
+        <city>Pittsburgh</city>
+        <team conf="Eastern" div="Atlantic">Penguins</team>
+        <website>http://penguins.nhl.com/</website>
+        <set>B</set>
+        <email>moody.akhoudoud@gmail.com</email>
+        <members>
+            <member>Aboulkhoudoud, Muhammad</member>
+            <member>Flagel, Mathias</member>
+            <member>McIntosh, Tom</member>
+        </members>
+        <note>Simple, but adequate.</note>
+    </group>
+    <group code="sjs">
+        <city>San Jose</city>
+        <team conf="Western" div="Pacific">Sharks</team>
+        <website>http://sharks.nhl.com/</website>
+        <set>X</set>
+        <email>jim_parry@bcit.ca</email>
+        <members>
+            <member>Parry, Jim</member>
+        </members>
+        <note>This looks like so much fun that I am going to make one too:)
+        Haven't started yet, though!</note>
+    </group>
+    <group code="stl">
+        <city>St Louis</city>
+        <team conf="Western" div="Central">Blues</team>
+        <website>http://blues.nhl.com/</website>
+        <set></set>
+        <members>
+
+        </members>
+    </group>
+    <group code="tbl">
+        <city>Tampa Bay</city>
+        <team conf="Eastern" div="Southeast">Lightning</team>
+        <website>http://lightning.nhl.com/</website>
+        <set>G</set>
+        <email>wong.j3ff@gmail.com</email>
+        <members>
+            <member>Ghosh, Partho</member>
+            <member>Bonneteau, Chelsey</member>
+            <member>Wong, Jeff</member>
+        </members>
+        <note>In progress, but misguided. No index.php, an NHL subfolder containing the webapp,
+        and a copy of the system folder?</note>
+    </group>
+    <group code="tor">
+        <city>Toronto</city>
+        <team conf="Eastern" div="Northeast">Maple Leafs</team>
+        <website>http://mapleleafs.nhl.com/ </website>
+        <set>O</set>
+        <email>lukequeenan@gmail.com</email>
+        <members>
+            <member>Donaldson, Duncan</member>
+            <member>Queenan, Luke</member>
+            <member>Wright, Daniel</member>
+        </members>
+        <note>In progress - they have yet to add graphics, email links, missing pages.
+        Another team that you can feel the group's love for!</note>
+    </group>
+    <group code="van">
+        <city>Vancouver</city>
+        <team conf="Western" div="Northwest">Canucks</team>
+        <website>http://canucks.nhl.com/</website>
+        <set>B</set>
+        <email>romel.dris@gmail.com</email>
+        <members>
+            <member>Chang, Jerry</member>
+            <member>Clark, Steve</member>
+            <member>Dris, Romel</member>
+        </members>
+        <note>Looking good. Kinda amazing that all three team members have the same email, eh?</note>
+    </group>
+    <group code="wsh">
+        <city>Washington</city>
+        <team conf="Eastern" div="Southeast">Capitals</team>
+        <website>"http://capitals.nhl.com/ </website>
+        <set>G</set>
+        <email>npan3@my.bcit.ca</email>
+        <members>
+            <member>Pan, Nicholas</member>
+            <member>Lau, Antony</member>
+        </members>
+        <note>Looks good. Ambitious, but good :)</note>
+    </group>
+
+</teams>

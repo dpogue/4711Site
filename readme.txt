@@ -12,3 +12,10 @@ Assignment 1: Completed
     image assets
     stylesheets & css
     properties.xml file & DTD
+
+Assignment 2: Completed
+    League page with sorting alphabetically and by conference/division
+    Roster page
+    Roster XML document with DTD
+    Schedule page
+    Schedule XML document with Schema

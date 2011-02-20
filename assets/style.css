@@ -318,6 +318,14 @@ aside {
     padding: 0;
 }
 
+p {
+    margin-bottom: 5px;
+}
+
+.centre {
+    text-align: center;
+}
+
 footer {
     clear: both;
     display: block;
@@ -325,4 +333,43 @@ footer {
     padding: 0;
     padding-top: 25px;
     text-align: center;
+}
+
+#league,
+#western,
+#eastern {
+    float: left;
+    width: 300px;
+    padding: 0 10px;
+}
+
+#western h3,
+#eastern h3 {
+    margin-left: 1em;
+    text-decoration: underline;
+    font-size: 123%;
+}
+
+#league ul,
+#western ul,
+#eastern ul {
+    padding-left: 2em;
+}
+
+#league dt,
+#western dt,
+#eastern dt {
+    font-weight: bold;
+    font-size: 108%;
+}
+
+#western dd,
+#eastern dd {
+    padding-left: 1em;
+    font-style: italic;
+}
+
+#league dd {
+    padding-left: 3em;
+    font-style: italic;
 }

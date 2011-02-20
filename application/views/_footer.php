@@ -9,7 +9,7 @@ if (!defined('APPPATH'))
  */
 ?>
 <div id="footer">
-    <b>Comp4711 Assignment 1</b>
+    <b>Comp4711 Assignment 2</b>
     <br>
     <small>
         <a href="mailto:tom@tnightingale.com">Tom Nightingale</a>
