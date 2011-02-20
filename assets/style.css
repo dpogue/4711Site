@@ -373,3 +373,17 @@ footer {
     padding-left: 3em;
     font-style: italic;
 }
+
+table {
+    width: 100%;
+}
+
+td {
+    vertical-align: middle;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.titlecase {
+    text-transform: capitalize;
+}
