@@ -1,7 +1,7 @@
 <!DOCTYPE roster SYSTEM "roster.dtd">
 <roster>
 	<player last='Tavares' first='John' position='C' number='91' Weight='202' Shoots='Left' >
-		<BirthPlace>Mississ8, a, ON</BirthPlace>
+		<BirthPlace>Mississauga, ON, Canada</BirthPlace>
 		<DOB>1990-09-20</DOB>
 		<Height>6&apos; 0&quot;</Height>
 	</player>

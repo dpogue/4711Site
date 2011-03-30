@@ -11,7 +11,9 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://localhost:8500/";//"http://nyi.bcitxml.com/";
+//$config['base_url']	= "http://localhost:8500/";//"http://nyi.bcitxml.com/";
+$config['base_url'] = "http://" . $_SERVER['HTTP_HOST'] . ":" . $_SERVER['SERVER_PORT'];
+$config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
 
 /*
 |--------------------------------------------------------------------------
