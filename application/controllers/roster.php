@@ -20,75 +20,38 @@ class Roster extends CI_Controller {
         $data['pagetitle'] = 'New York Islanders [COMP4711]';
         $data['pagebody'] = 'roster.php';
         $data['title'] = "NYI Roster";
-        $data['xml'] = loadRosterData($this->input->post('order'));
+        $data['xmldoc'] = new DOMDocument;
+        $data['xmldoc']->load('./data/roster.xml');
+        $data['xslsheet'] = loadRosterData($this->input->post('order'));
         $this->load->view('template', $data);
     }
 
 }
 
 /**
- * loads an array from an xml file.
- * then sorts the entries by the type selected.
+ * loads the corrent xsl style sheet
+ * 
  * @author Warren Voelkl
  */
 function loadRosterData($orderBy) {
-    $output = array();
-    $file = "data/roster.xml";
-    $fp = fopen($file, "r");
-    $nonparsedfile = fread($fp, 80000);
-    $xml = new SimpleXMLElement($nonparsedfile);
-    $i = 0;
-    foreach ($xml->player as $player) {
-        $output[$i]['name'] = $player['name'];
-        $output[$i]['position'] = $player['position'];
-        $output[$i]['number'] = $player['number'];
-        $output[$i]['weight'] = $player['Weight'];
-        $output[$i]['shoots'] = $player['Shoots'];
-        $output[$i]['BirthPlace'] = $player->BirthPlace;
-        $output[$i]['DOB'] = $player->DOB;
-        $output[$i]['Height'] = $player->Height;
-        $i += 1;
-    }
+    $xslt = new XSLTProcessor();
+    $XSL = new DOMDocument();
+    $XSL->load('./data/rostername.xsl', LIBXML_NOCDATA);
     if (isset($orderBy)) {
         switch ($orderBy) {
             case "name":
-                usort($output, 'sortByName');
+                $XSL->load('./data/rostername.xsl', LIBXML_NOCDATA);
                 break;
             case "number":
-                usort($output, 'sortByNumber');
+                $XSL->load('./data/rosternumber.xsl', LIBXML_NOCDATA);
                 break;
             case "position":
-                usort($output, 'sortByPosition');
-                
+                $XSL->load('./data/rosterposition.xsl', LIBXML_NOCDATA);
         }
     }
-    return $output;
-}
-
-/**
- * Sorts the roster by jersey number.
- * @author Warren Voelkl
- */
-function sortByNumber($a, $b) {
-    return $a['number'] - $b['number'];
-}
-
-/**
- * Sorts the roster by jersey number.
- * @author Warren Voelkl
- */
-function sortByName($a, $b) {
-    return strcmp($a['name'], $b['name']);
-}
-
-/**
- * Sorts the roster by jersey number.
- * @author Warren Voelkl
- */
-function sortByPosition($a, $b) {
-    if($a['position'] == $b['position'])
-        return $a['number'] - $b['number'];
-    return strcmp($a['position'], $b['position']);
+    
+    $xslt->importStylesheet($XSL);
+    return $xslt;
 }
 
 /* End of file roster.php */

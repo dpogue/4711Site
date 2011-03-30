@@ -1,161 +1,156 @@
 <!DOCTYPE roster SYSTEM "roster.dtd">
 <roster>
-	<player name='John Tavares' position='C' number='91' Weight='202' Shoots='Left' >
+	<player last='Tavares' first='John' position='C' number='91' Weight='202' Shoots='Left' >
 		<BirthPlace>Mississ8, a, ON</BirthPlace>
 		<DOB>1990-09-20</DOB>
 		<Height>6&apos; 0&quot;</Height>
 	</player>
-	<player name='Matt Moulson' position='LW' number='26' Weight='210' Shoots='Left' >
+	<player last='Moulson' first='Matt' position='LW' number='26' Weight='210' Shoots='Left' >
 		<BirthPlace>North York, ON, Canada</BirthPlace>
 		<DOB>1983-01-11</DOB>
 		<Height>6&apos; 1&quot;</Height>
 	</player>
-	<player name='Michael Grabner' position='RW' number='40' Weight='170' Shoots='Left' >
+	<player last='Grabner' first='Michael' position='RW' number='40' Weight='170' Shoots='Left' >
 		<BirthPlace>Villach, Austria</BirthPlace>
 		<DOB>1987-05-10</DOB>
 		<Height>6&apos; 0&quot;</Height>
 	</player>
-	<player name='PA Parenteau' position='RW' number='15' Weight='198' Shoots='Right' >
-		<BirthPlace>Hull, QC, Canada</BirthPlace>
-		<DOB>1983-03-24</DOB>
-		<Height>6&apos; 0&quot;</Height>
-	</player>
-	<player name='Blake Comeau' position='RW' number='57' Weight='198' Shoots='Right' >
+	<player last='Comeau' first='Blake' position='RW' number='57' Weight='198' Shoots='Right' >
 		<BirthPlace>Meadow Lake, SK, Canada</BirthPlace>
 		<DOB>1986-02-18</DOB>
 		<Height>6&apos; 0&quot;</Height>
 	</player>
-	<player name='Frans Nielsen' position='C' number='51' Weight='187' Shoots='Left' >
+	<player last='Nielsen' first='Frans' position='C' number='51' Weight='187' Shoots='Left' >
 		<BirthPlace>Herning, Denmark</BirthPlace>
 		<DOB>1984-04-24</DOB>
 		<Height>6&apos; 0&quot;</Height>
 	</player>
-	<player name='Rob Schremp' position='C' number='44' Weight='184' Shoots='Left' >
+	<player last='Schremp' first='Rob' position='C' number='44' Weight='184' Shoots='Left' >
 		<BirthPlace>Fulton, NY, United States</BirthPlace>
 		<DOB>1986-01-07</DOB>
 		<Height>5&apos; 10&quot;</Height>
 	</player>
-	<player name='James Wisniewski' position='D' number='20' Weight='208' Shoots='Right' >
+	<player last='Wisniewski' first='James' position='D' number='20' Weight='208' Shoots='Right' >
 		<BirthPlace>Canton, MI, United States</BirthPlace>
 		<DOB>1984-02-21</DOB>
 		<Height>5&apos; 11&quot;</Height>
 	</player>
-	<player name='Josh Bailey' position='C' number='12' Weight='201' Shoots='Left' >
+	<player last='Bailey' first='Josh' position='C' number='12' Weight='201' Shoots='Left' >
 		<BirthPlace>Bowmanville, ON, Canada</BirthPlace>
 		<DOB>1989-02-10</DOB>
 		<Height>6&apos; 1&quot;</Height>
 	</player>
-	<player name='Andrew MacDonald' position='D' number='47' Weight='201' Shoots='Left' >
+	<player last='MacDonald' first='Andrew' position='D' number='47' Weight='201' Shoots='Left' >
 		<BirthPlace>Judique, NS, Canada</BirthPlace>
 		<DOB>1986-07-09</DOB>
 		<Height>6&apos; 1&quot;</Height>
 	</player>
-	<player name='Travis Hamonic' position='D' number='36' Weight='208' Shoots='Right' >
+	<player last='Hamonic' first='Travis' position='D' number='36' Weight='208' Shoots='Right' >
 		<BirthPlace>Winnipeg, MB, Canada</BirthPlace>
 		<DOB>1990-08-16</DOB>
 		<Height>6&apos; 2&quot;</Height>
 	</player>
-	<player name='Milan Jurcina' position='D' number='27' Weight='240' Shoots='Right' >
+	<player last='Jurcina' first='Milan' position='D' number='27' Weight='240' Shoots='Right' >
 		<BirthPlace>Liptovsky Mikulas, Slovakia</BirthPlace>
 		<DOB>1983-07-06</DOB>
 		<Height>6&apos; 4&quot;</Height>
 	</player>
-	<player name='Jack Hillen' position='D' number='38' Weight='190' Shoots='Left' >
+	<player last='Hillen' first='Jack' position='D' number='38' Weight='190' Shoots='Left' >
 		<BirthPlace>Minnetonka, MN, United States</BirthPlace>
 		<DOB>1986-01-24</DOB>
 		<Height>5&apos; 10&quot;</Height>
 	</player>
-	<player name='Kyle Okposo' position='RW' number='21' Weight='210' Shoots='Right' >
+	<player last='Okposo' first='Kyle' position='RW' number='21' Weight='210' Shoots='Right' >
 		<BirthPlace>St. Paul, MN, United States</BirthPlace>
 		<DOB>1988-04-16</DOB>
 		<Height>6&apos; 0&quot;</Height>
 	</player>
-	<player name='Doug Weight' position='C' number='93' Weight='202' Shoots='Left' >
+	<player last='Weight' first='Doug' position='C' number='93' Weight='202' Shoots='Left' >
 		<BirthPlace>Detroit, MI, United States</BirthPlace>
 		<DOB>1971-01-21</DOB>
 		<Height>5&apos; 11&quot;</Height>
 	</player>
-	<player name='Radek Martinek' position='D' number='24' Weight='210' Shoots='Right' >
+	<player last='Martinek' first='Radek' position='D' number='24' Weight='210' Shoots='Right' >
 		<BirthPlace>Havlicko, Czech Republic</BirthPlace>
 		<DOB>1976-08-31</DOB>
 		<Height>6&apos; 2&quot;</Height>
 	</player>
-	<player name='Matt Martin' position='LW' number='17' Weight='210' Shoots='Left' >
+	<player last='Martin' first='Matt' position='LW' number='17' Weight='210' Shoots='Left' >
 		<BirthPlace>Windsor, ON, Canada</BirthPlace>
 		<DOB>1989-05-08</DOB>
-		<Height>17&apos; 6&quot;</Height>
+		<Height>6&apos; 3&quot;</Height>
 	</player>
-	<player name='Jesse Joensuu' position='LW' number='58' Weight='209' Shoots='Left' >
+	<player last='Joensuu' first='Jesse' position='LW' number='58' Weight='209' Shoots='Left' >
 		<BirthPlace>Pori, Finland</BirthPlace>
 		<DOB>1987-05-10</DOB>
 		<Height>6&apos; 4&quot;</Height>
 	</player>
-	<player name='Zenon Konopka' position='C' number='28' Weight='209' Shoots='Left' >
+	<player last='Konopka' first='Zenon' position='C' number='28' Weight='209' Shoots='Left' >
 		<BirthPlace>Niagara On The Lake, ON, Canada</BirthPlace>
 		<DOB>1981-02-01</DOB>
 		<Height>6&apos; 0&quot;</Height>
 	</player>
-	<player name='Bruno Gervais' position='D' number='8' Weight='200' Shoots='Right' >
+	<player last='Gervais' first='Bruno' position='D' number='8' Weight='200' Shoots='Right' >
 		<BirthPlace>Longueuil, QC, Canada</BirthPlace>
 		<DOB>1984-03-10</DOB>
 		<Height>6&apos; 1&quot;</Height>
 	</player>
-	<player name='Trent Hunter' position='RW' number='7' Weight='217' Shoots='Right' >
+	<player last='Hunter' first='Trent' position='RW' number='7' Weight='217' Shoots='Right' >
 		<BirthPlace>Red Deer, AB, Canada</BirthPlace>
 		<DOB>1980-05-07</DOB>
 		<Height>6&apos; 3&quot;</Height>
 	</player>
-	<player name='Ty Wishart' position='D' number='6' Weight='222' Shoots='Left' >
+	<player last='Wishart' first='Ty' position='D' number='6' Weight='222' Shoots='Left' >
 		<BirthPlace>Belleville, ON, Canada, </BirthPlace>
 		<DOB>1988-05-19</DOB>
 		<Height>6&apos; 4&quot;</Height>
 	</player>
-	<player name='Jon Sim' position='LW' number='16' Weight='189' Shoots='Left' >
+	<player last='Sim' first='Jon' position='LW' number='16' Weight='189' Shoots='Left' >
 		<BirthPlace>New Glasgow, NS, Canada</BirthPlace>
 		<DOB>1977-09-29</DOB>
 		<Height>5&apos; 10&quot;</Height>
 	</player>
-	<player name='Jeremy Colliton' position='C' number='37' Weight='209' Shoots='Right' >
+	<player last='Colliton' first='Jeremy' position='C' number='37' Weight='209' Shoots='Right' >
 		<BirthPlace>Blackie, AB, Canada</BirthPlace>
 		<DOB>1985-01-13</DOB>
 		<Height>6&apos; 2&quot;</Height>
 	</player>
-	<player name='Mike Mottau' position='D' number='10' Weight='190' Shoots='Left' >
+	<player last='Mottau' first='Mike' position='D' number='10' Weight='190' Shoots='Left' >
 		<BirthPlace>Quincy, MA, United States</BirthPlace>
 		<DOB>1978-03-19</DOB>
 		<Height>6&apos; 0&quot;</Height>
 	</player>
-	<player name='Mark Eaton' position='D' number='4' Weight='214' Shoots='Left' >
+	<player last='Eaton' first='Mark' position='D' number='4' Weight='214' Shoots='Left' >
 		<BirthPlace>Wilmington, DE, United States</BirthPlace>
 		<DOB>1977-05-06</DOB>
 		<Height>4&apos; 6&quot;</Height>
 	</player>
-	<player name='Nino Niederreiter' position='RW' number='25' Weight='205' Shoots='Left' >
+	<player last='Niederreiter' first='Nino' position='RW' number='25' Weight='205' Shoots='Left' >
 		<BirthPlace>Chur, Switzerland</BirthPlace>
 		<DOB>1992-08-09</DOB>
 		<Height>6&apos; 2&quot;</Height>
 	</player>
-	<player name='Trevor Gillies' position='LW' number='14' Weight='227' Shoots='Left' >
+	<player last='Gillies' first='Trevor' position='LW' number='14' Weight='227' Shoots='Left' >
 		<BirthPlace>Cambridge, ON, Canada</BirthPlace>
 		<DOB>1979-01-30</DOB>
 		<Height>6&apos; 3&quot;</Height>
 	</player>
-	<player name='Micheal Haley' position='C' number='59' Weight='204' Shoots='Left' >
+	<player last='Haley' first='Micheal' position='C' number='59' Weight='204' Shoots='Left' >
 		<BirthPlace>Guelph, ON, Canada</BirthPlace>
 		<DOB>1986-03-30</DOB>
 		<Height>5&apos; 10&quot;</Height>
 	</player>
-	<player name='Dylan Reese' position='D' number='42' Weight='201' Shoots='Right' >
+	<player last='Reese' first='Dylan' position='D' number='42' Weight='201' Shoots='Right' >
 		<BirthPlace>Pittsburgh, PA, United States</BirthPlace>
 		<DOB>1984-08-29</DOB>
 		<Height>6&apos; 1&quot;</Height>
 	</player>
-        <player name='Rick Dipoetro' position='G' number='39' Weight='190' Shoots='Right' >
+        <player last='Dipoetro' first='Rick' position='G' number='39' Weight='190' Shoots='Right' >
 		<BirthPlace>Winthrop, MA, United States</BirthPlace>
 		<DOB>1981-09-19</DOB>
 		<Height>6&apos; 1&quot;</Height>
 	</player>
-        <player name='Kevin Poulin' position='G' number='60' Weight='211' Shoots='Left' >
+        <player last='Poulin' first='Kevin' position='G' number='60' Weight='211' Shoots='Left' >
 		<BirthPlace>Montreal, QC, Canada</BirthPlace>
 		<DOB>1990-05-12</DOB>
 		<Height>6&apos; 1&quot;</Height>
