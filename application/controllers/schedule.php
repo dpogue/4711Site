@@ -24,7 +24,6 @@ class Schedule extends CI_Controller {
       $data['pagebody'] = 'schedule-form';
 
       $post_url = $this->input->post('schedule_url');
-      _p($post_url);
       if (!empty($post_url)) $this->update($post_url, $filepath);
 
       $data['data']['url'] = $url; 
@@ -34,13 +33,22 @@ class Schedule extends CI_Controller {
           show_error("Could not load schedule source file: $filepath");
           return;
         }
-        $xml = fread($file, 10000);
-        $data['data']['xml'] = htmlentities($xml);
+        $xml = fread($file, 65536);
+        $data['data']['xml'] = "<pre>" . htmlentities($xml) . "</pre>";
+        // Darryl, process XML here!! :).
       }
 
       $this->load->view('template', $data);
     }
 
+    /**
+     * Updates the cached XML datafile.
+     *
+     * @param $url The location of the source csv data file.
+     * @param $filepath The path to write the cache to.
+     *
+     * @author Tom Nightingale
+     */
     private function update($url, $filepath) {
       $xml = $this->loadXML($url);
       if (($handle = fopen($filepath, 'w')) !== FALSE) {
