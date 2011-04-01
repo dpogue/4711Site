@@ -9,6 +9,7 @@
     <meta charset="utf-8">
     <title><?php echo $pagetitle; ?></title>
     <script src="/assets/modernizr-1.6.min.js" type="text/javascript"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
     <link href="/assets/style.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Droid+Serif:bold" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold,italic" rel="stylesheet" type="text/css">

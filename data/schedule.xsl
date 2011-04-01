@@ -50,7 +50,14 @@
         <xsl:sort select="@day" order="ascending" data-type="number" />
         <xsl:choose>
             <xsl:when test="contains($order, 'old')">
-                <xsl:apply-templates select=".[@year &lt;= $year and @month &lt;= $month and @day &lt;= $day]" />
+                <xsl:if test="@year &lt; $year or (@year = $year and (document('')//m:month[@name=current()/@month]/@value &lt; document('')//m:month[@name=$month]/@value or (document('')//m:month[@name=current()/@month]/@value &lt;= document('')//m:month[@name=$month]/@value and @day &lt;= $day)))">
+                    <xsl:apply-templates select="." />
+                </xsl:if>
+            </xsl:when>
+            <xsl:when test="contains($order, 'upcoming')">
+                <xsl:if test="@year &gt; $year or (@year = $year and (document('')//m:month[@name=current()/@month]/@value &gt; document('')//m:month[@name=$month]/@value or (document('')//m:month[@name=current()/@month]/@value &gt;= document('')//m:month[@name=$month]/@value and @day &gt;= $day)))">
+                    <xsl:apply-templates select="." />
+                </xsl:if>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates select="." />
