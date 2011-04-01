@@ -17,7 +17,7 @@ class Schedule extends CI_Controller {
      */
     function index() {
       $this->load->helper('form');
-      $filepath = "/data/CACHED-remote-schedule.xml";
+      $filepath = "data/CACHED-remote-schedule.xml";
       $url = "http://mysportscal.com/Files_iCal_CSV/CSV_NHL_2010-2011/new_york_islanders.csv";
       $data = array();
       $data['pagetitle'] = 'Winter 2010/2011 Schedule';
