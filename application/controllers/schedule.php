@@ -16,35 +16,37 @@ class Schedule extends CI_Controller {
      * @author Tom Nightingale
      */
     function index() {
-        // Load dataset from file if it exists.
-        $filename = 'data/schedule-feb.xml';
-        if (!file_exists($filename)) {
-          error_log(print_r("File not found: $filename", 1), 0);
-          $data['content']['body'] = "<pre>Cannot load resource: $filename</pre>";
-          // This is not ideal.
-          return;
-        }
-        
-        $xml = simplexml_load_file($filename);
-        // Filtering dataset.
-        $games = filterGames($xml);
-
+        $this->load->helper('form');
+        $url = "http://mysportscal.com/Files_iCal_CSV/CSV_NHL_2010-2011/new_york_islanders.csv";
         $data = array();
-        $data['pagetitle'] = 'February 2011 Schedule';
-        $data['games'] = $games;
-        $data['pagebody'] = 'schedule';
+
+        $data['pagetitle'] = 'Please enter a URL for a schedule:';
+        $data['default_url'] = $url; 
+        $data['pagebody'] = 'schedule-form';
+
         $this->load->view('template', $data);
     }
 
     function update() {
-      $url = "http://mysportscal.com/Files_iCal_CSV/CSV_NHL_2010-2011/new_york_islanders.csv";
+      $url = $this->input->post('schedule_url');
       $xml = $this->loadXML($url);
+
+      $data = array();
       $data['pagetitle'] = 'February 2011 Schedule';
       $data['xml'] = "<pre>" . htmlentities($xml) . "</pre>";
       $data['pagebody'] = 'update';
+
       $this->load->view('template', $data);
     }
 
+    /**
+     * Loads a csv file from a file path or url and parses it into a well-formed
+     * XML document.
+     *
+     * @param $url The URL or file path of the source csv file to load.
+     *
+     * @author Tom Nightingale
+     */
     private function loadXML($url) {
       $output = "";
       $output .= "<?xml version=\"1.0\"?>\n";
@@ -52,8 +54,10 @@ class Schedule extends CI_Controller {
 
       if (($handle = fopen($url, "r")) !== FALSE) {
         
+        // Loop over each row in the csv and generate a <game> element.
         $count = 0;
         while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+          // Skip the header row in csv file.
           if ($count++ == 0) continue;
 
           $timestamp = strtotime($data[0]);
@@ -75,6 +79,11 @@ class Schedule extends CI_Controller {
       return $output;
     }
 
+    /**
+     * Render a <game> row in the xml file.
+     *
+     * @author Tom Nightingale
+     */
     private function render(&$output, $data) {
       $output .= "\t<game ";
       $output .= "day=\"{$data['day']}\" ";
