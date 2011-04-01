@@ -36,6 +36,68 @@ class Schedule extends CI_Controller {
         $this->load->view('template', $data);
     }
 
+    function update() {
+      $url = "http://mysportscal.com/Files_iCal_CSV/CSV_NHL_2010-2011/new_york_islanders.csv";
+      $xml = $this->loadXML($url);
+      $data['pagetitle'] = 'February 2011 Schedule';
+      $data['xml'] = "<pre>" . htmlentities($xml) . "</pre>";
+      $data['pagebody'] = 'update';
+      $this->load->view('template', $data);
+    }
+
+    private function loadXML($url) {
+      $output = "";
+      $output .= "<?xml version=\"1.0\"?>\n";
+      $output .= "<schedule>\n";
+
+      if (($handle = fopen($url, "r")) !== FALSE) {
+        
+        $count = 0;
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+          if ($count++ == 0) continue;
+
+          $timestamp = strtotime($data[0]);
+          $game['day'] = date("j", $timestamp);
+          $game['month'] = strtoupper(date("M", $timestamp));
+          $game['year'] = date("Y", $timestamp);
+          $game['time'] = date("H:i", strtotime($data[6]));
+          $game['away'] = $data[13];
+          $game['home'] = $data[14];
+
+          $this->render($output, $game);
+        }
+        
+        fclose($handle);
+      }
+
+      $output .= "</schedule>\n";
+
+      return $output;
+    }
+
+    private function render(&$output, $data) {
+      $output .= "\t<game ";
+      $output .= "day=\"{$data['day']}\" ";
+      $output .= "month=\"{$data['month']}\" ";
+      $output .= "year=\"{$data['year']}\" ";
+      $output .= "time=\"{$data['time']}\" ";
+      $output .= ">\n";
+
+      $output .= "\t\t<away";
+      //$output .= "score=\"{$data[7]}\" ";
+      $output .= ">";
+      $output .= $data['away'];
+      $output .= "</away>\n";
+
+      $output .= "\t\t<home";
+      //$output .= "score=\"{$data[8]}\" ";
+      $output .= ">";
+      $output .= $data['home'];
+      $output .= "</home>\n";
+
+      $output .= "\t</game>\n";
+    }
+
     /**
      * Placeholder action for the upcoming games page.
      *
