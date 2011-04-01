@@ -16,27 +16,37 @@ class Schedule extends CI_Controller {
      * @author Tom Nightingale
      */
     function index() {
-        $this->load->helper('form');
-        $url = "http://mysportscal.com/Files_iCal_CSV/CSV_NHL_2010-2011/new_york_islanders.csv";
-        $data = array();
-
-        $data['pagetitle'] = 'Please enter a URL for a schedule:';
-        $data['default_url'] = $url; 
-        $data['pagebody'] = 'schedule-form';
-
-        $this->load->view('template', $data);
-    }
-
-    function update() {
-      $url = $this->input->post('schedule_url');
-      $xml = $this->loadXML($url);
-
+      $this->load->helper('form');
+      $filepath = "/data/CACHED-remote-schedule.xml";
+      $url = "http://mysportscal.com/Files_iCal_CSV/CSV_NHL_2010-2011/new_york_islanders.csv";
       $data = array();
-      $data['pagetitle'] = 'February 2011 Schedule';
-      $data['xml'] = "<pre>" . htmlentities($xml) . "</pre>";
-      $data['pagebody'] = 'update';
+      $data['pagetitle'] = 'Winter 2010/2011 Schedule';
+      $data['pagebody'] = 'schedule-form';
+
+      $post_url = $this->input->post('schedule_url');
+      _p($post_url);
+      if (!empty($post_url)) $this->update($post_url, $filepath);
+
+      $data['data']['url'] = $url; 
+
+      if (file_exists($filepath)) {
+        if (($file = fopen($filepath, "r")) === FALSE) {
+          show_error("Could not load schedule source file: $filepath");
+          return;
+        }
+        $xml = fread($file, 10000);
+        $data['data']['xml'] = htmlentities($xml);
+      }
 
       $this->load->view('template', $data);
+    }
+
+    private function update($url, $filepath) {
+      $xml = $this->loadXML($url);
+      if (($handle = fopen($filepath, 'w')) !== FALSE) {
+        fwrite($handle, $xml);
+        fclose($handle);
+      }
     }
 
     /**
