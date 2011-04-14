@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<schedule>
+	<game day="29" month="SEP" year="2010" time="21:00" >
+		<away>Calgary</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="3" month="JAN" year="2011" time="21:00" >
+		<away>NY Islanders</away>
+		<home>Calgary</home>
+	</game>
+	<game day="6" month="JAN" year="2011" time="21:00" >
+		<away>NY Islanders</away>
+		<home>Edmonton</home>
+	</game>
+	<game day="10" month="NOV" year="2010" time="22:00" >
+		<away>NY Islanders</away>
+		<home>Anaheim</home>
+	</game>
+	<game day="11" month="NOV" year="2010" time="22:30" >
+		<away>NY Islanders</away>
+		<home>San Jose</home>
+	</game>
+	<game day="13" month="NOV" year="2010" time="22:30" >
+		<away>NY Islanders</away>
+		<home>Los Angeles</home>
+	</game>
+	<game day="11" month="OCT" year="2010" time="13:00" >
+		<away>NY Rangers</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="26" month="NOV" year="2010" time="13:00" >
+		<away>New Jersey</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="5" month="DEC" year="2010" time="13:00" >
+		<away>Philadelphia</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="17" month="JAN" year="2011" time="13:00" >
+		<away>New Jersey</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="21" month="FEB" year="2011" time="13:00" >
+		<away>Florida</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="5" month="MAR" year="2011" time="13:00" >
+		<away>St. Louis</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="6" month="MAR" year="2011" time="13:00" >
+		<away>New Jersey</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="23" month="JAN" year="2011" time="15:00" >
+		<away>Buffalo</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="8" month="JAN" year="2011" time="15:00" >
+		<away>NY Islanders</away>
+		<home>Colorado</home>
+	</game>
+	<game day="13" month="FEB" year="2011" time="15:00" >
+		<away>NY Islanders</away>
+		<home>Buffalo</home>
+	</game>
+	<game day="21" month="NOV" year="2010" time="17:00" >
+		<away>NY Islanders</away>
+		<home>Atlanta</home>
+	</game>
+	<game day="2" month="OCT" year="2010" time="19:00" >
+		<away>New Jersey</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="9" month="OCT" year="2010" time="19:00" >
+		<away>Dallas</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="16" month="OCT" year="2010" time="19:00" >
+		<away>Colorado</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="29" month="OCT" year="2010" time="19:00" >
+		<away>Montreal</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="6" month="NOV" year="2010" time="19:00" >
+		<away>Philadelphia</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="17" month="NOV" year="2010" time="19:00" >
+		<away>Tampa Bay</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="20" month="NOV" year="2010" time="19:00" >
+		<away>Florida</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="24" month="NOV" year="2010" time="19:00" >
+		<away>Columbus</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="2" month="DEC" year="2010" time="19:00" >
+		<away>NY Rangers</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="11" month="DEC" year="2010" time="19:00" >
+		<away>Atlanta</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="16" month="DEC" year="2010" time="19:00" >
+		<away>Anaheim</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="18" month="DEC" year="2010" time="19:00" >
+		<away>Phoenix</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="22" month="DEC" year="2010" time="19:00" >
+		<away>Tampa Bay</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="26" month="DEC" year="2010" time="19:00" >
+		<away>Montreal</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="29" month="DEC" year="2010" time="19:00" >
+		<away>Pittsburgh</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="11" month="JAN" year="2011" time="19:00" >
+		<away>Vancouver</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="13" month="JAN" year="2011" time="19:00" >
+		<away>Ottawa</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="15" month="JAN" year="2011" time="19:00" >
+		<away>Buffalo</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="20" month="JAN" year="2011" time="19:00" >
+		<away>Washington</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="26" month="JAN" year="2011" time="19:00" >
+		<away>Carolina</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="5" month="FEB" year="2011" time="19:00" >
+		<away>Ottawa</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="8" month="FEB" year="2011" time="19:00" >
+		<away>Toronto</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="11" month="FEB" year="2011" time="19:00" >
+		<away>Pittsburgh</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="17" month="FEB" year="2011" time="19:00" >
+		<away>Boston</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="19" month="FEB" year="2011" time="19:00" >
+		<away>Los Angeles</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="26" month="FEB" year="2011" time="19:00" >
+		<away>Washington</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="2" month="MAR" year="2011" time="19:00" >
+		<away>Minnesota</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="8" month="MAR" year="2011" time="19:00" >
+		<away>Toronto</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="11" month="MAR" year="2011" time="19:00" >
+		<away>Boston</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="24" month="MAR" year="2011" time="19:00" >
+		<away>Atlanta</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="26" month="MAR" year="2011" time="19:00" >
+		<away>Philadelphia</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="31" month="MAR" year="2011" time="19:00" >
+		<away>NY Rangers</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="2" month="APR" year="2011" time="19:00" >
+		<away>Carolina</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="8" month="APR" year="2011" time="19:00" >
+		<away>Pittsburgh</away>
+		<home>NY Islanders</home>
+	</game>
+	<game day="29" month="SEP" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Philadelphia</home>
+	</game>
+	<game day="1" month="OCT" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>New Jersey</home>
+	</game>
+	<game day="13" month="OCT" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Washington</home>
+	</game>
+	<game day="15" month="OCT" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Pittsburgh</home>
+	</game>
+	<game day="18" month="OCT" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Toronto</home>
+	</game>
+	<game day="23" month="OCT" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Florida</home>
+	</game>
+	<game day="30" month="OCT" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Philadelphia</home>
+	</game>
+	<game day="3" month="NOV" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Carolina</home>
+	</game>
+	<game day="3" month="DEC" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>NY Rangers</home>
+	</game>
+	<game day="9" month="DEC" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Boston</home>
+	</game>
+	<game day="23" month="DEC" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>New Jersey</home>
+	</game>
+	<game day="27" month="DEC" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>NY Rangers</home>
+	</game>
+	<game day="31" month="DEC" year="2010" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Detroit</home>
+	</game>
+	<game day="9" month="JAN" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Chicago</home>
+	</game>
+	<game day="25" month="JAN" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Pittsburgh</home>
+	</game>
+	<game day="1" month="FEB" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Atlanta</home>
+	</game>
+	<game day="2" month="FEB" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Pittsburgh</home>
+	</game>
+	<game day="22" month="FEB" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Toronto</home>
+	</game>
+	<game day="24" month="FEB" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Philadelphia</home>
+	</game>
+	<game day="1" month="MAR" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Washington</home>
+	</game>
+	<game day="12" month="MAR" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>New Jersey</home>
+	</game>
+	<game day="15" month="MAR" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>NY Rangers</home>
+	</game>
+	<game day="18" month="MAR" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Carolina</home>
+	</game>
+	<game day="19" month="MAR" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Florida</home>
+	</game>
+	<game day="30" month="MAR" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>New Jersey</home>
+	</game>
+	<game day="6" month="APR" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Boston</home>
+	</game>
+	<game day="9" month="APR" year="2011" time="19:00" >
+		<away>NY Islanders</away>
+		<home>Philadelphia</home>
+	</game>
+	<game day="21" month="OCT" year="2010" time="19:30" >
+		<away>NY Islanders</away>
+		<home>Tampa Bay</home>
+	</game>
+	<game day="27" month="OCT" year="2010" time="19:30" >
+		<away>NY Islanders</away>
+		<home>Montreal</home>
+	</game>
+	<game day="4" month="NOV" year="2010" time="19:30" >
+		<away>NY Islanders</away>
+		<home>Ottawa</home>
+	</game>
+	<game day="21" month="JAN" year="2011" time="19:30" >
+		<away>NY Islanders</away>
+		<home>Buffalo</home>
+	</game>
+	<game day="10" month="FEB" year="2011" time="19:30" >
+		<away>NY Islanders</away>
+		<home>Montreal</home>
+	</game>
+	<game day="15" month="FEB" year="2011" time="19:30" >
+		<away>NY Islanders</away>
+		<home>Ottawa</home>
+	</game>
+	<game day="22" month="MAR" year="2011" time="19:30" >
+		<away>NY Islanders</away>
+		<home>Tampa Bay</home>
+	</game>
+	<game day="13" month="DEC" year="2010" time="20:00" >
+		<away>NY Islanders</away>
+		<home>Nashville</home>
+	</game>
+</schedule>

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-echo form_open('roster');
+echo form_open('/roster');
 $order = array('name'=> 'name', 'number'=> 'number', 'position'=> 'position');
 echo form_dropdown('order', $order);
 echo form_submit('mysubmit', 'Submit');
