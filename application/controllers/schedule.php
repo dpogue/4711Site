@@ -17,7 +17,8 @@ class Schedule extends CI_Controller {
     function index() {
       $this->load->helper('form');
       $filepath = "data/CACHED-remote-schedule.xml";
-      $url = "http://mysportscal.com/Files_iCal_CSV/CSV_NHL_2010-2011/new_york_islanders.csv";
+      //$url = "http://mysportscal.com/Files_iCal_CSV/CSV_NHL_2010-2011/new_york_islanders.csv";
+      $url = "https://gist.github.com/raw/920858/9fed1999871e41f9776f04a1bd405e052ec2625a/NYI";
       $data = array();
       $data['pagetitle'] = 'Winter 2010/2011 Schedule';
       $data['pagebody'] = 'schedule';
@@ -83,6 +84,8 @@ class Schedule extends CI_Controller {
           $game['time'] = date("H:i", strtotime($data[6]));
           $game['away'] = $data[13];
           $game['home'] = $data[14];
+          $game['score']['away'] = $data[15];
+          $game['score']['home'] = $data[16];
 
           $this->render($output, $game);
         }
@@ -108,14 +111,14 @@ class Schedule extends CI_Controller {
       $output .= "time=\"{$data['time']}\" ";
       $output .= ">\n";
 
-      $output .= "\t\t<away";
-      //$output .= "score=\"{$data[7]}\" ";
+      $output .= "\t\t<away ";
+      $output .= "score=\"{$data['score']['away']}\" ";
       $output .= ">";
       $output .= $data['away'];
       $output .= "</away>\n";
 
-      $output .= "\t\t<home";
-      //$output .= "score=\"{$data[8]}\" ";
+      $output .= "\t\t<home ";
+      $output .= "score=\"{$data['score']['home']}\" ";
       $output .= ">";
       $output .= $data['home'];
       $output .= "</home>\n";
