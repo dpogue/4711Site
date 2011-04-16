@@ -24,18 +24,47 @@ class Predict extends CI_Controller {
         $oppscore = 0;
         $selfscore = 0;
         $filepath = "data/CACHED-remote-schedule.xml";
+        $count = 0;
+
+        $team = str_replace('_', ' ', $team);
 
         $doc = new DOMDocument();
         $doc->load($filepath);
         $path = new DOMXPath($doc);
 
         $q = '//away[. = "'.$team.'"]';
-
         foreach ($path->query($q) as $n) {
-            echo $n->getParent()->getAttrbute('day');
+            $oppscore += (int)$n->getAttribute('score');
+            $tmp = $n;
+            while ($tmp->nextSibling->nodeType !== XML_ELEMENT_NODE) {
+                $tmp = $tmp->nextSibling;
+            }
+            $selfscore += (int)$tmp->nextSibling->getAttribute('score');
+
+            $count += 1;
         }
 
-        echo $team;
+        $q = '//home[. = "'.$team.'"]';
+        foreach ($path->query($q) as $n) {
+            $selfscore += (int)$n->getAttribute('score');
+            $tmp = $n;
+            while ($tmp->previousSibling->nodeType !== XML_ELEMENT_NODE) {
+                $tmp = $tmp->previousSibling;
+            }
+            $oppscore += (int)$tmp->previousSibling->getAttribute('score');
+
+            $count += 1;
+        }
+
+        if ($count == 0) {
+            echo '';
+            return;
+        }
+
+        $selfscore = ceil($selfscore / $count);
+        $oppscore = ceil($oppscore / $count);
+
+        echo '{"team":"'.$team.'","us":'.$selfscore.',"them":'.$oppscore.'}';
     }
 
     private function parseteams() {
